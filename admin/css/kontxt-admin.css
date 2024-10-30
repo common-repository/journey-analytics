@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.journeyContainer {
+    width:800px;
+}
+
+#journeyKeyGroupRight {
+    float:right;
+}
+
+#journeyKeyGroupLeft {
+    float: left;
+}
+
+#journeyKeysCore, #journeyKeysForm, #journeyKeysCommerce, #journeyKeysForum  {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 10px;
+    background: #59D4E8;
+    padding: 5px;
+    width: 233px;
+    min-height: 50px;
+}
+
+#journeyKeysDrop {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 10px;
+    background: #DDB6C6;
+    padding: 5px;
+    width: 233px;
+    min-height: 50px;
+}
+
+#journeyKeysCore li, #journeyKeysForm li, #journeyKeysCommerce li, #journeyKeysForum li, #journeyKeysDrop li {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 210px;
+}
